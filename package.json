@@ -1,0 +1,28 @@
+{
+  "name": "axelrod.js",
+  "version": "0.0.0",
+  "description": "an Axelrod's Iterative Prisoner Dilemma simulator for NPM.",
+  "main": "axelrod.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/udidoron/axelrod.js.git"
+  },
+  "keywords": [
+    "axelrod",
+    "iterative",
+    "prisoner",
+    "dilemma",
+    "javascript",
+    "js",
+    "simulator"
+  ],
+  "author": "Udi Doron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/udidoron/axelrod.js/issues"
+  },
+  "homepage": "https://github.com/udidoron/axelrod.js#readme"
+}
