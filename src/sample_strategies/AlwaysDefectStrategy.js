@@ -7,7 +7,10 @@ class AlwaysDefectStrategy extends Strategy {
 		super((name)? name : "AlwaysDefectStrategy");
 	}
 
-	willCooperate(...params) {
+	/**
+	 * Always defects (returns false), as per its definition.
+	 */
+	willCooperate(params) {
 		return false;
 	}
 }

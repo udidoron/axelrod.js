@@ -21,7 +21,7 @@ class Strategy {
 		this._name = newName;
 	}
 
-	willCooperate(...params) {
+	willCooperate(params) {
 		return true;
 	}
 	

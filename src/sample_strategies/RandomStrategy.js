@@ -7,7 +7,10 @@ class RandomStrategy extends Strategy {
 		super((name)? name : "RandomStrategy");
 	}
 
-	willCooperate(...params) {
+	/**
+	 * Cooperates or defects randomly, as per its definition.
+	 */
+	willCooperate(params) {
 		return Math.random() > 0.5;
 	}
 

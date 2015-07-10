@@ -7,7 +7,10 @@ class AlwaysCooperateStrategy extends Strategy {
 		super((name)? name : "AlwaysCooperateStrategy");
 	}
 
-	willCooperate(...params) {
+	/**
+	 * Always cooperates (returns true), as per its definition.
+	 */
+	willCooperate(params) {
 		return true;
 	}
 }
