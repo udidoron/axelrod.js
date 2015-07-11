@@ -32,7 +32,7 @@ If a strategy name is provided and it does not exist in either of these director
 - Go-against-majority: similar to go-by-majority, only it does the opposite of what the rival player did most.
     
 ### Default mode
-Simply running `node axelrod.js` will run a:
+Simply calling `node axelrod.js` will run a:
 - 200-plays, single round tournament 
 - between the always-cooperate, always-defect, random and tit-for-tat strategies, 
 - with verbose output (detailing for each play, each move made by each player, and the winner for each game and the total tournament)

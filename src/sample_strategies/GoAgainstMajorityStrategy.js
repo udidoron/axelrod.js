@@ -28,7 +28,7 @@ class GoAgainstMajorityStrategy extends Strategy {
 		//counting cooperations and defections
 		let cooperationsCount=0, defectionsCount=0;
 		const rivalMoves = params.rivalMoves;
-		for (var index=0; index<rivalMoves; index++) {
+		for (let index=0; index<rivalMoves; index++) {
 			if (rivalMoves[index]) 
 				cooperationsCount++;
 			else
